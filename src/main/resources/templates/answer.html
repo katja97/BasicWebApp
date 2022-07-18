@@ -7,7 +7,7 @@
 <div th:switch="${answer}">
     <div th:case="''">
         <h1>Sorry</h1>
-        <p th:text="'Sorry, we didn\'t get it ' + ${query} + '.'"> <em></em></p>
+        <p th:text="'Sorry, I didn\'t get it ' + ${query} + '.'"> <em></em></p>
     </div>
     <div th:case="*">
         <h1 th:text="${query}"></h1>
